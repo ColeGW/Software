@@ -1,0 +1,64 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/include",
+                "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/src",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/variants/leonardo",
+                "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/lib/Rangefinder/src",
+                "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/lib/Romi-32u4-utilities/src",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/include",
+                    "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/src",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/variants/leonardo",
+                    "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/lib/Rangefinder/src",
+                    "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/lib/Romi-32u4-utilities/src",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60104",
+                "ARDUINO_AVR_A_STAR_32U4",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x1ffb",
+                "USB_PID=0x2300",
+                "USB_PRODUCT=\"Pololu A-Star 32U4\"",
+                "USB_MANUFACTURER=\"Pololu Corporation\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/colew/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
