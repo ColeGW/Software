@@ -10,6 +10,8 @@
             "includePath": [
                 "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/include",
                 "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/src",
+                "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/.pio/libdeps/a-star32U4/wpi-32u4-library",
                 "C:/Users/colew/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/colew/.platformio/packages/framework-arduino-avr/variants/leonardo",
                 "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/lib/Rangefinder/src",
@@ -18,7 +20,6 @@
                 "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -26,6 +27,8 @@
                 "path": [
                     "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/include",
                     "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/src",
+                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/.pio/libdeps/a-star32U4/wpi-32u4-library",
                     "C:/Users/colew/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/colew/.platformio/packages/framework-arduino-avr/variants/leonardo",
                     "c:/Users/colew/Desktop/WPI Classes/Classes/Current/RBE2002/RBE2002/Lab1/lib/Rangefinder/src",
@@ -34,12 +37,11 @@
                     "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                     "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/colew/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=60104",
+                "PLATFORMIO=60105",
                 "ARDUINO_AVR_A_STAR_32U4",
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
