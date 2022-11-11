@@ -77,7 +77,7 @@ void HC_SR04::commandPing(void)
         digitalWrite(trigPin, LOW); //unclear if pin has to stay HIGH
     }
 }
-
+float lastPing;
 bool HC_SR04::getDistance(float& distance)
 {
     bool retVal = false;
@@ -94,6 +94,13 @@ bool HC_SR04::getDistance(float& distance)
     
     // nominal translation as given by the datasheet; adjust as needed
     distance = echoLength / 58.0;
+
+    uint32_t currTime = millis();
+    if(currTime - lastPing > 5)
+    {
+      commandPing();
+      lastPing = currTime;
+    }
 
     return retVal;
 }

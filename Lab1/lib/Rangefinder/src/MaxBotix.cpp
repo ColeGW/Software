@@ -46,7 +46,7 @@ bool MaxBotixPulse::getDistance(float& distance)
         state &= ~ECHO_RECD; 
         uint16_t echoLength = pulseEnd - pulseStart;
 
-        distance = echoLength; //TODO: Convert to distance
+        distance = echoLength / 147; 
         newReading = true;
     }
     sei();
@@ -62,7 +62,7 @@ bool MaxBotixAnalog::getDistance(float& distance)
     {
         lastPing = currTime;
         uint16_t adcResult = analogRead(adcPin);
-        distance = adcResult; //TODO: Convert to distance
+        distance = adcResult * 5.0 / 1023.0; 
 
         newReading = true;
     }

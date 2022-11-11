@@ -1,7 +1,8 @@
 #include <Sharp-IR.h>
 
-const uint32_t SHARP_IR_INTERVAL = 1000;
-
+const uint32_t SHARP_IR_INTERVAL = 100;
+float bits = 1023;
+float Vcc = 5;
 bool SharpIR::getDistance(float& distance)
 {
     bool newReading = false;
@@ -11,7 +12,8 @@ bool SharpIR::getDistance(float& distance)
         lastReading = currTime;
 
         uint16_t adcResult = analogRead(adcPin);
-        distance = adcResult; //TODO
+        float Voltage = (float) adcResult * Vcc/ bits;
+        distance = 15.849/(Voltage - 0.5071);
 
         newReading = true;
     }
